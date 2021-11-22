@@ -1,0 +1,7 @@
+.card {
+    padding: 0px !important;
+}
+
+.card-img, .card-img-bottom, .card-img-top {
+    max-height: 250px;
+}
