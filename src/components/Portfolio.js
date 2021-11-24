@@ -3,7 +3,6 @@ import Project from "./Project";
 import { Row } from "react-bootstrap";
 import { Col } from "react-bootstrap";
 import starwars from '../data/img/starwars.jpg'
-import memori from '../data/img/memori.jpg'
 import memori3 from '../data/img/memori3.jpg'
 import bank from '../data/img/bank02.jpg'
 import ystory from '../data/img/ystory03.PNG'
