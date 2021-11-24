@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,700;1,300&display=swap');
 
 
+
 .App {
   text-align: center;
 }
 
 .bgBlack {
+  /* background-color: black; */
+  /* background-image: url('./data/img/background04.jpg'); */
+  background-size: cover;
   background-color: black;
+  /* background-position: bottom; */
 }
 
 .poppinsTitle {
@@ -17,11 +22,30 @@
 
 .poppinsText {
   font-family: 'Poppins', sans-serif;
+  font-size: 1.2em;
   font-weight: 300;
   font-style: normal;
   color : lightgray;
 }
 
+
+#logo {
+  margin-top: 5%;
+  max-width: 12em;
+}
+
+.active {
+  border-bottom: 1px solid #F9A940;
+}
+
+.nav-link.active {
+  color : #F9A940 !important;
+}
+
+.nav-link {
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
 
 .btn-outline-warning {
   background: none !important;

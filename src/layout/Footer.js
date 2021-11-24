@@ -7,7 +7,7 @@ import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-ic
 function Footer() {
   return (
 
-      <footer className="bg-dark text-center text-white mt-5">
+      <footer className="text-center text-white mt-5">
 
         <div className="container p-4 pb-2">
 
