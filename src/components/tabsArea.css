@@ -1,0 +1,39 @@
+.nav-tabs {
+    border: none !important;
+    margin-left: 0.5em;
+
+}
+.nav-item .nav-link {
+    padding-left: 0px!important;
+    margin-top: 0.5em;
+}
+
+.nav-link {
+    background: none !important;
+    color: gray !important;
+    }
+
+.tabs-area .nav-link.active {
+background: none !important;
+border-color: #F9A940 !important;
+border-top: none;
+border-left: none;
+border-right: none;
+border-bottom: 1px solid #F9A940;
+}
+
+.tab-content>.active {
+    border: none;
+}
+
+.tabs-area .nav-link:not(:focus) {
+    border: none;
+    border-bottom: 1px solid lightgray;
+
+}
+
+.tabs-area .nav-link:focus {
+    border: none;
+    border-bottom: 1px solid #F9A940;
+}
+

@@ -6,12 +6,10 @@
   text-align: center;
 }
 
+
 .bgBlack {
-  /* background-color: black; */
-  /* background-image: url('./data/img/background04.jpg'); */
   background-size: cover;
   background-color: black;
-  /* background-position: bottom; */
 }
 
 .poppinsTitle {
@@ -22,20 +20,32 @@
 
 .poppinsText {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: 300;
   font-style: normal;
   color : lightgray;
 }
 
+.align-left {
+  text-align: left;
+}
+
+.light-grey {
+  color: rgba(198,201,216,.75);
+}
 
 #logo {
   margin-top: 5%;
-  max-width: 14em;
+  max-width: 13.5em;
 }
 
 .active {
   border-bottom: 1px solid #F9A940;
+}
+
+.btn-outline-light {
+  color: #F9A940 !important;
+  border-color: #F9A940 !important;
 }
 
 .nav-link.active {

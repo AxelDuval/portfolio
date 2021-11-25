@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 import { Navbar } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
 import { Container } from "react-bootstrap";
-import logo from '../data/logos/logoAD2.png'
+import logo from '../data/logos/logo280.png'
 
 
 function Header() {
