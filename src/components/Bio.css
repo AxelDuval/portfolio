@@ -1,0 +1,11 @@
+#profil-img {
+    max-height: 50vh !important;
+    margin-top: -2em !important;
+  }
+
+
+  @media screen and (min-width: 992px){
+.bio-txt {
+    margin-right: 2.5em;
+}
+}

@@ -1,6 +1,6 @@
 .nav-tabs {
     border: none !important;
-    margin-left: 0.5em;
+    /* margin-left: 0.5em; */
 
 }
 .nav-item .nav-link {
@@ -29,11 +29,14 @@ border-bottom: 1px solid #F9A940;
 .tabs-area .nav-link:not(:focus) {
     border: none;
     border-bottom: 1px solid lightgray;
-
 }
 
 .tabs-area .nav-link:focus {
     border: none;
     border-bottom: 1px solid #F9A940;
+}
+
+.tab-content p {
+line-height: 2em;
 }
 

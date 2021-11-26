@@ -1,9 +1,11 @@
 import './animations.css';
+import './Bio.css';
+
 import { Container, Tab } from "react-bootstrap";
 import { Row } from "react-bootstrap";
 import { Col } from "react-bootstrap";
 import { Image } from 'react-bootstrap';
-import profil from '../data/img/profil.jpg'
+import profil from '../data/img/profil3.jpg'
 import TabsArea from './TabsArea';
 
 
@@ -15,15 +17,16 @@ function Bio() {
 
             <Row >
                 <Col lg={4}><div className="profil mb-4"><Image id="profil-img" src={profil} fluid /></div></Col>
-                <Col lg={8}> <div className="text-white px-2">
+                <Col lg={8}> <div className="bio-txt text-white px-2 mt-4">
                     <div className="text-white"><h1 className="tracking-in-expand poppinsTitle align-left">A propos</h1></div>
                     <p className="poppinsText align-left light-grey">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum enim non odio pulvinar ullamcorper. Fusce facilisis erat risus, in auctor dui porttitor et. Praesent dui nibh, euismod sit amet mattis at, fringilla eu risus. Ut sit amet tortor at sem posuere dictum. Aliquam odio diam, dignissim nec maximus non, bibendum ac nibh. Suspendisse lacus libero, ultricies ut felis sed, porta laoreet nibh. Suspendisse sapien justo, egestas non tempor nec, vehicula cursus mi. Phasellus dignissim ultrices erat, vitae ultricies massa imperdiet quis. Curabitur sagittis sapien ut sem faucibus feugiat.
+                    Hello, je m’appelle Axel, développeur Web junior & passionné de musique ! <br/>
+                    Après avoir travaillé pendant une dizaine d'années en tant que webmaster en entreprise et en freelance, j'ai choisi me spécialiser dans le domaine du développement web.
                     </p>
                     </div>
 
 
-                    <Row className=" mt-5 scale-up-bottom tabs-area">
+                    <Row className="mt-5 scale-up-bottom tabs-area">
                         <TabsArea />
                     </Row>
                 </Col>
