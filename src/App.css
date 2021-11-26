@@ -7,6 +7,9 @@
   min-height: 100vh;
 }
 
+.portfolio {
+  max-width: 1765px;
+}
 .bgBlack {
   background-size: cover;
   background-color: black;
