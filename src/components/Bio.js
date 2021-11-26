@@ -1,7 +1,7 @@
 import './animations.css';
 import './Bio.css';
 
-import { Container, Tab } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import { Row } from "react-bootstrap";
 import { Col } from "react-bootstrap";
 import { Image } from 'react-bootstrap';
