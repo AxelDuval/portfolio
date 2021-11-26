@@ -9,7 +9,7 @@ import './Project.css'
 function Project(props) {
     return (
 
-        <div className="flip col-xl-3 col-md-4 col-sm-12 m-3 mb-5">
+        <div className="flip col-xxl-3 col-xl-3 col-md-4 col-sm-12 m-3 mb-5">
             <div className="front" style={{ backgroundImage: `url(${props.img})` }}>
                 <h1 className="text-shadow">{props.title}</h1>
             </div>
