@@ -25,7 +25,7 @@ function Portfolio() {
 
             <Row className="justify-content-center m-2 mt-5 scale-up-bottom ">
                 <Project title="API Swapi" text="Un application front REACT requêtant une API (swapi)" img={starwars} gtlink={"https://github.com/AxelDuval/star_wars"} website={"https://axelduval.github.io/memory/"} />
-                <Project title="Memori Game" text="Création d'un jeu de Memory" img={memori3} gtlink={"https://github.com/AxelDuval/memory"} website={"https://axelduval.github.io/memory/"} />
+                <Project title="Memori Game" text="Création d'un jeu de Memory. Javascript / Bootstrap 5" img={memori3} gtlink={"https://github.com/AxelDuval/memory"} website={"https://axelduval.github.io/memory/"} />
                 <Project title="Ma banque" text="Création d'une application de gestion bancaire - Structure de données en JSON et récupération à l’aide d’AJAX" img={bank} gtlink={"https://github.com/AxelDuval/application_bancaire"} website={"https://axelduval.github.io/application_bancaire/"} />
                 <Project title="Ystory" text="Site de contenus multimédias historiques, basé sur la géolocalisation" img={ystory}  website={"https://ystory.fr/"} />
                 <Project title="Shifumi" text="Découverte de la programmation - Un jeu de pierre/feuille/ciseaux" img={shifumi} gtlink={"https://github.com/AxelDuval/shifumi"} website={"https://axelduval.github.io/shifumi/"} />
