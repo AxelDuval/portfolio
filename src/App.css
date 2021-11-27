@@ -29,6 +29,10 @@
   color : lightgray;
 }
 
+.button a {
+  text-decoration: none;
+}
+
 .align-left {
   text-align: left;
 }
