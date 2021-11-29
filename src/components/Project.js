@@ -8,8 +8,8 @@ import './Project.css'
 
 function Project(props) {
 
-const gtPresent = props.gtlink;
-const webSitePresent = props.website;
+    const gtPresent = props.gtlink;
+    const webSitePresent = props.website;
 
 
     return (
@@ -24,8 +24,12 @@ const webSitePresent = props.website;
                 <Row>
                     <Col>
                         <ButtonGroup className="mt-3">
-                            <a href={props.gtlink} target="_blank" rel="noopener noreferrer"><Button className="btn-outline-warning mx-1" style={{display: gtPresent ? "inline-block" : "none"}}>GitHub</Button></a>
-                            <a href={props.website} target="_blank" rel="noopener noreferrer"> <Button className="btn btn-outline-info" style={{display: webSitePresent ? "inline-block" : "none"}}>Voir le site</Button></a>
+                            <a href={props.gtlink} target="_blank" rel="noopener noreferrer">
+                                <Button className="btn-outline-warning mx-1" style={{ display: gtPresent ? "inline-block" : "none" }}>GitHub</Button>
+                                </a>
+                            <a href={props.website} target="_blank" rel="noopener noreferrer">
+                                <Button className="btn btn-outline-info" style={{ display: webSitePresent ? "inline-block" : "none" }}>Voir le site</Button>
+                                </a>
                         </ButtonGroup>
                     </Col>
                 </Row>

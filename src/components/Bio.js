@@ -20,11 +20,10 @@ function Bio() {
                 <Col lg={8}> <div className="bio-txt text-white px-2 mt-4">
                     <div className="text-white"><h1 className="tracking-in-expand poppinsTitle align-left">A propos</h1></div>
                     <p className="poppinsText align-left light-grey">
-                    Hello, je m’appelle Axel, développeur Web junior & passionné de musique ! <br/>
-                    Après avoir travaillé pendant une dizaine d'années en tant que webmaster en entreprise et en freelance, j'ai choisi me spécialiser dans le domaine du développement web.
+                        Hello, je m’appelle Axel, développeur Web junior & passionné de musique ! <br />
+                        Après avoir travaillé pendant une dizaine d'années en tant que webmaster en entreprise et en freelance, j'ai choisi me spécialiser dans le domaine du développement web.
                     </p>
-                    </div>
-
+                </div>
 
                     <Row className="mt-5 scale-up-bottom tabs-area">
                         <TabsArea />
@@ -38,5 +37,4 @@ function Bio() {
         </Container>
     )
 }
-
 export default Bio;
