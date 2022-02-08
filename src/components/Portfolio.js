@@ -9,6 +9,8 @@ import bank from '../data/img/bank02.jpg'
 import ystory from '../data/img/ystory03.PNG'
 import normandy from '../data/img/norimmo.jpg'
 import shifumi from '../data/img/shifumi.jpg'
+import todolist from '../data/img/todolist.png'
+
 
 
 
@@ -28,7 +30,7 @@ function Portfolio() {
                 <Project title="Memori Game" text="Création d'un jeu de Memory avec Javascript et Bootstrap 5" img={memori3} gtlink={"https://github.com/AxelDuval/memory"} website={"https://axelduval.github.io/memory/"} />
                 <Project title="Ma banque" text="Création d'une application bancaire - Structure de données en JSON et récupération à l’aide d’AJAX" img={bank} gtlink={"https://github.com/AxelDuval/application_bancaire"} website={"https://axelduval.github.io/application_bancaire/"} />
                 <Project title="Ystory" text="Site de contenus multimédias historiques, avec une API de géolocalisation. (Wordpress)" img={ystory}  website={"https://ystory.fr/"} />
-                <Project title="Shifumi" text="Découverte de la programmation - Un jeu de pierre/feuille/ciseaux" img={shifumi} gtlink={"https://github.com/AxelDuval/shifumi"} website={"https://axelduval.github.io/shifumi/"} />
+                <Project title="To Do List" text="Une Application de gestion de tâches avec React et bootstrap - Mode Dark/Light" img={todolist} gtlink={"https://github.com/AxelDuval/to-do-list"} website={"https://axel-duval-to-do-list.netlify.app/"} />
                 <Project title="Nor'Immo" text="Développement d'interface dynamique en JavaScript" img={normandy} gtlink={"https://github.com/AxelDuval/NorImmo"} website={"https://axelduval.github.io/NorImmo/"} />
 
             </Row>
